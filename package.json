@@ -1,0 +1,31 @@
+{
+  "name": "hiroiga-detect-bot",
+  "version": "1.0.0",
+  "description": "拾い画を検知します",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waki285/hiroiga-detect-bot.git"
+  },
+  "keywords": [
+    "image-search"
+  ],
+  "author": "waki285 <suzuneu@suzuneu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waki285/hiroiga-detect-bot/issues"
+  },
+  "homepage": "https://github.com/waki285/hiroiga-detect-bot#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "discord.js": "^13.4.0"
+  },
+  "devDependencies": {
+    "node": "^16.13.1"
+  }
+}
