@@ -46,6 +46,7 @@ client.on("messageCreate", async (message) => {
     } catch {
       return `${i + 1}番目の画像: 失敗しました。`;
     }
+    console.log(`${i} complete`)
   });
   const fullResult = await Promise.all(promiseArr);
   msg.edit({
