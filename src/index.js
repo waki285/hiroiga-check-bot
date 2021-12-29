@@ -52,7 +52,7 @@ client.on("messageCreate", async (message) => {
     content: null, embeds: [
       { description: fullResult.join("\n") }
     ]
-  });
+  }).catch(() => {});
 });
 
 client.on("interactionCreate", async (i) => {
