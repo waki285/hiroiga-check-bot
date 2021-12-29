@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx node index.js"
+    "start": "npx node src/index.js",
+    "regist": "npx node src/register.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
   "dependencies": {
     "axios": "^0.24.0",
     "chalk": "^4.1.2",
-    "discord.js": "^13.4.0"
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
     "node": "^16.13.1"
